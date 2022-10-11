@@ -38,4 +38,5 @@ jobs:
       - run: npm run test
       - run: wget https://downloads.lambdatest.com/hyperexecute/linux/hyperexecute
       - run: chmod u+x hyperexecute 
+      - run ./hyperexecute --user sudhirj --key Il7jaDN0DRW4a7RIE6Al1Fv1StFRW6LXfwgcw3h0HcoKWpAF47 --config hyperexecute.yaml
 
